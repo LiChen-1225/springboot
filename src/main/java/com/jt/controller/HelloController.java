@@ -11,6 +11,7 @@ public class HelloController {
 	@RequestMapping("/hello")
 	@ResponseBody
 	public String HelloController() {
+		System.out.println("git同步更新测试");
 		return "达内1904第一天下课";
 	}
 	
